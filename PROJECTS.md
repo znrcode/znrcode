@@ -24,11 +24,11 @@ JPEG X-Ray, JPEG dosyalarının ikili yapısını incelemek ve dosya içindeki �
 ## 2. Smart Store Monitoring System
 
 **Alan:** IoT · ESP32 · Sensör sistemleri  
-**Durum:** Proje fikri ve sistem tasarımı
+**Durum:** Kaynak kodu mevcut · GitHub deposu henüz yayınlanmadı
 
 Mağaza giriş-çıkış hareketlerini sensörlerle takip ederek temel mağaza izleme işlevlerini gerçekleştirmeyi amaçlayan bir IoT projesidir.
 
-Planlanan işlevler:
+Mevcut kaynak kodunda bulunan işlevler:
 - ESP32 ve HC-SR04 ultrasonik sensör ile giriş-çıkış hareketlerini algılama
 - Gün sonunda müşteri hareketi olmayan durumları kontrol etme
 - Kepenk/kapı kontrolü için sistem entegrasyonu
@@ -41,11 +41,11 @@ Planlanan işlevler:
 ## 3. ESP32 Smart Trash Bin
 
 **Alan:** Gömülü sistemler · ESP32 · Elektronik  
-**Durum:** Proje geliştirme çalışması
+**Durum:** Kaynak kodu mevcut · GitHub deposu henüz yayınlanmadı
 
-ESP32 ve mesafe sensörü kullanarak temassız kullanımı hedefleyen akıllı çöp kutusu projesidir.
+ESP32, HC-SR04 ultrasonik sensör ve servo motor kullanarak temassız kapak kontrolü sağlayan akıllı çöp kutusu projesidir.
 
-Projenin temel yaklaşımı, kullanıcının kapağa dokunmadan sensör aracılığıyla açma-kapama işlemini gerçekleştirebilmesidir.
+Sensör belirlenen mesafe içinde hareket algıladığında servo motor kapağı açar; belirlenen süre sonunda kapak kapanır. Yeşil/kırmızı LED'ler kapak durumunu gösterir ve Wi-Fi bağlantısı üzerinden Telegram bildirimi gönderilir.
 
 **GitHub deposu:** Henüz yayınlanmadı.
 
