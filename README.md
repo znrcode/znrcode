@@ -43,8 +43,8 @@ Projelerimin amaçlarını, kullanılan teknolojileri ve geliştirme durumların
 
 Öne çıkan çalışmalarım:
 - **[JPEG X-Ray](https://github.com/znrcode/JPEG-X-Ray):** C ile JPEG yapısı ve EXIF metaverisi analizi.
-- **Smart Store Monitoring:** ESP32 tabanlı mağaza izleme sistemi.
-- **ESP32 Smart Trash Bin:** Temassız kullanım hedefleyen akıllı çöp kutusu.
+- **Smart Store Monitoring:** ESP32 tabanlı mağaza izleme sistemi (kaynak kodu mevcut, depo yayınlanmayı bekliyor).
+- **ESP32 Smart Trash Bin:** ESP32 ile temassız kapak kontrolü sağlayan akıllı çöp kutusu (kaynak kodu mevcut, depo yayınlanmayı bekliyor).
 - **ARGUS:** LoRa tabanlı afet haberleşme sistemi (tasarım aşamasında).
 
 ## 🎯 Gelişim Hedeflerim
