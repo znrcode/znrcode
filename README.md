@@ -37,17 +37,15 @@ Yazılım ve donanımı bir araya getiren çözümler geliştirmeye, mühendisli
 
 ## 📂 Projeler
 
-### [JPEG X-Ray — JPEG Metadata Parser](https://github.com/znrcode/JPEG-X-Ray)
-C programlama diliyle JPEG dosyalarının ikili yapısını inceleyen ve EXIF metaverilerini ayrıştıran araç.
+Projelerimin amaçlarını, kullanılan teknolojileri ve geliştirme durumlarını tek sayfada inceleyebilirsiniz.
 
-### Smart Store Monitoring System
-ESP32 ve HC-SR04 ultrasonik sensör kullanarak mağaza giriş-çıkış hareketlerini algılamayı ve temel mağaza izleme işlevlerini gerçekleştirmeyi amaçlayan IoT projesi. **GitHub deposu henüz yayınlanmadı.**
+➡️ **[Tüm projelerimi incele — PROJECTS.md](PROJECTS.md)**
 
-### ESP32 Smart Trash Bin
-ESP32 ve mesafe sensörüyle temassız kullanım sunan akıllı çöp kutusu çalışması. **GitHub deposu henüz yayınlanmadı.**
-
-### ARGUS — LoRa Tabanlı Afet Haberleşme Sistemi
-GSM ve internet altyapısının kullanılamadığı afet koşullarında kısa mesaj iletimini hedefleyen LoRa tabanlı acil durum haberleşme sistemi. **Proje tasarım ve sistem mimarisi aşamasındadır.**
+Öne çıkan çalışmalarım:
+- **[JPEG X-Ray](https://github.com/znrcode/JPEG-X-Ray):** C ile JPEG yapısı ve EXIF metaverisi analizi.
+- **Smart Store Monitoring:** ESP32 tabanlı mağaza izleme sistemi.
+- **ESP32 Smart Trash Bin:** Temassız kullanım hedefleyen akıllı çöp kutusu.
+- **ARGUS:** LoRa tabanlı afet haberleşme sistemi (tasarım aşamasında).
 
 ## 🎯 Gelişim Hedeflerim
 
