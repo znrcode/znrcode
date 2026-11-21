@@ -1,6 +1,6 @@
 # Projelerim
 
-Bu sayfada üzerinde çalıştığım ve geliştirmeyi planladığım yazılım, gömülü sistem ve IoT projelerini bulabilirsiniz. Projelerin durumları özellikle belirtilmiştir; tasarım aşamasındaki çalışmalar tamamlanmış ürün gibi sunulmamıştır.
+Bu sayfada yazılım, gömülü sistem ve IoT alanlarında geliştirdiğim veya üzerinde çalıştığım projeler yer alıyor. Projelerin mevcut durumları ayrıca belirtilmiştir.
 
 ---
 
@@ -24,30 +24,33 @@ JPEG X-Ray, JPEG dosyalarının ikili yapısını incelemek ve dosya içindeki �
 ## 2. Smart Store Monitoring System
 
 **Alan:** IoT · ESP32 · Sensör sistemleri  
-**Durum:** Kaynak kodu mevcut · GitHub deposu henüz yayınlanmadı
+**Durum:** Kaynak kodu GitHub'da yayınlandı
 
-Mağaza giriş-çıkış hareketlerini sensörlerle takip ederek temel mağaza izleme işlevlerini gerçekleştirmeyi amaçlayan bir IoT projesidir.
+Mağaza giriş-çıkış hareketlerini sensörlerle takip ederek temel mağaza izleme ve gün sonu kontrol işlevlerini gerçekleştirmeyi amaçlayan bir IoT prototipidir.
 
-Mevcut kaynak kodunda bulunan işlevler:
-- ESP32 ve HC-SR04 ultrasonik sensör ile giriş-çıkış hareketlerini algılama
-- Gün sonunda müşteri hareketi olmayan durumları kontrol etme
-- Kepenk/kapı kontrolü için sistem entegrasyonu
-- Telegram üzerinden günlük durum raporu gönderme
+- ESP32 ve HC-SR04 ultrasonik sensör ile geçiş algılama
+- OLED ekranda geçiş ve tahmini müşteri sayısını gösterme
+- Gün sonu butonu ile kontrol senaryosunu başlatma
+- Tek sayıda geçişte içeride müşteri kalmış olabileceğine dair alarm
+- Servo motorla kepenk kapatma komutu ve Telegram raporu
 
-**GitHub deposu:** Henüz yayınlanmadı.
+**Kaynak kodu:** [znrcode/Smart-Store-Monitoring](https://github.com/znrcode/Smart-Store-Monitoring)
 
 ---
 
 ## 3. ESP32 Smart Trash Bin
 
 **Alan:** Gömülü sistemler · ESP32 · Elektronik  
-**Durum:** Kaynak kodu mevcut · GitHub deposu henüz yayınlanmadı
+**Durum:** Kaynak kodu GitHub'da yayınlandı
 
-ESP32, HC-SR04 ultrasonik sensör ve servo motor kullanarak temassız kapak kontrolü sağlayan akıllı çöp kutusu projesidir.
+ESP32, HC-SR04 ultrasonik sensör ve servo motor kullanarak temassız kapak kontrolü sağlayan akıllı çöp kutusu prototipidir.
 
-Sensör belirlenen mesafe içinde hareket algıladığında servo motor kapağı açar; belirlenen süre sonunda kapak kapanır. Yeşil/kırmızı LED'ler kapak durumunu gösterir ve Wi-Fi bağlantısı üzerinden Telegram bildirimi gönderilir.
+- 15 cm altındaki yaklaşmayı algılama
+- Servo motor ile kapağı açma ve belirlenen süre sonunda kapatma
+- Yeşil/kırmızı LED'lerle kapak durumunu gösterme
+- Wi-Fi üzerinden Telegram bildirimi gönderme
 
-**GitHub deposu:** Henüz yayınlanmadı.
+**Kaynak kodu:** [znrcode/ESP32-Smart-Trash-Bin](https://github.com/znrcode/ESP32-Smart-Trash-Bin)
 
 ---
 
@@ -58,7 +61,6 @@ Sensör belirlenen mesafe içinde hareket algıladığında servo motor kapağı
 
 ARGUS, GSM, internet veya şebeke elektriğinin kullanılamadığı afet koşullarında kısa acil durum mesajlarının iletilmesini hedefleyen LoRa tabanlı bir haberleşme sistemidir. Mevcut haberleşme altyapılarının yerine geçmekten ziyade, kesinti durumlarında tamamlayıcı bir iletişim kanalı oluşturmayı amaçlar.
 
-Öne çıkan tasarım hedefleri:
 - LoRa üzerinden düşük güç tüketimli kısa mesaj iletimi
 - Acil yardım taleplerinin merkezi bir noktada toplanması
 - Yardım türüne göre bildirimlerin sınıflandırılması ve önceliklendirilmesi
@@ -71,6 +73,6 @@ ARGUS, GSM, internet veya şebeke elektriğinin kullanılamadığı afet koşull
 
 ## Proje yaklaşımım
 
-Projelerimde yazılım ve donanımın birlikte çalışmasına, gerçek bir ihtiyaca çözüm üretmesine ve teknik kararların test edilebilir olmasına önem veriyorum. Geliştirme sürecinde yeni ilerlemeler oldukça bu sayfayı ve ilgili proje depolarını güncelleyeceğim.
+Projelerimde yazılım ve donanımın birlikte çalışmasına, gerçek bir ihtiyaca çözüm üretmesine ve teknik kararların test edilebilir olmasına önem veriyorum. Geliştirme sürecindeki ilerlemeleri ilgili depolarda güncelleyeceğim.
 
 [GitHub profilime dön](https://github.com/znrcode)
